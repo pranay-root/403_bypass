@@ -14,7 +14,7 @@ GateCrasher is a high-performance, multi-threaded penetration testing tool desig
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/pranay-root/403_bypass.git](https://github.com/pranay-root/403_bypass.git)
+   git clone https://github.com/pranay-root/403_bypass.git
    cd 403_bypass
 
 2. **Create and activate a virtual environment:**
@@ -32,7 +32,7 @@ GateCrasher is a high-performance, multi-threaded penetration testing tool desig
 
 Basic usage against a protected endpoint:
 ```bash
-python3 gatecrasher.py -u [http://target.com/sensitive/info](http://target.com/sensitive/info) -t 20 -r 5
+python3 gatecrasher.py -u https://target.com/admin -t 10 -r 3
 ```
 
 ### Arguments:
