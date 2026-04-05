@@ -17,17 +17,16 @@ GateCrasher is a high-performance, multi-threaded penetration testing tool desig
    git clone [https://github.com/pranay-root/403_bypass.git](https://github.com/pranay-root/403_bypass.git)
    cd 403_bypass
 
-
-2. **Install dependencies:**
+2. **Create and activate a virtual environment:**
    ```bash
-   pip3 install requests
+   python3 -m venv env
+   source env/bin/activate
    ```
-
-3. **Setup your payloads:**
-   Ensure you have a `payloads/` directory containing:
-   - `headers.txt`
-   - `paths.txt`
-   - `methods.txt`
+   
+3. **Install dependencies:**
+   ```bash
+   pip3 install -r requirements.txt
+   ```
 
 ## 📖 Usage
 
@@ -55,4 +54,4 @@ The tool specifically targets the following common misconfigurations:
 
 ## ⚠️ Disclaimer
 This tool is for educational and authorized security testing purposes only. Usage against targets without prior mutual consent is illegal. The author assumes no liability for misuse.
-```
+
