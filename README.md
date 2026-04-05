@@ -1,4 +1,3 @@
-```markdown
 # GateCrasher v5: Ultimate 403/401 Bypass Tool 🛡️
 
 GateCrasher is a high-performance, multi-threaded penetration testing tool designed to automate the detection of **403 Forbidden** and **401 Unauthorized** bypasses. By combining structural path mutations, header injection, and protocol manipulation, it identifies misconfigurations in WAFs, Proxies, and Backend servers.
@@ -17,7 +16,7 @@ GateCrasher is a high-performance, multi-threaded penetration testing tool desig
    ```bash
    git clone [https://github.com/pranay-root/403_bypass.git](https://github.com/pranay-root/403_bypass.git)
    cd 403_bypass
-   ```
+
 
 2. **Install dependencies:**
    ```bash
