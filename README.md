@@ -32,7 +32,7 @@ GateCrasher is a high-performance, multi-threaded penetration testing tool desig
 
 Basic usage against a protected endpoint:
 ```bash
-python3 gatecrasher.py -u https://target.com/admin -t 10 -r 3
+python3 gatecrasher.py -u https://target.com/admin -t 10 -fc 404,403
 ```
 
 ### Arguments:
